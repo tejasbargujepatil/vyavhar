@@ -1,0 +1,198 @@
+name: vyapar
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'  # ✅ safer SDK range, compatible with Flutter releases
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local SQLite DB
+  sqflite: ^2.4.2
+  path: ^1.9.0
+  sqflite_common_ffi: ^2.3.6  # ✅ required for Linux desktop
+
+  # State Management
+  provider: ^6.1.2
+
+  # Charts & Graphs
+  fl_chart: ^0.64.0
+
+  # PDF Generation
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+  # Date Formatting
+  intl: ^0.18.1
+
+  # Email Validation
+  email_validator: ^2.1.17
+
+  # File Picker & File Open
+  # file_picker: ^6.2.1
+  file_picker: ^10.2.0
+  open_filex: ^4.3.4
+  image_picker: ^1.1.2
+  
+
+  # Convert Numbers to Words
+  number_to_words: ^1.0.0
+
+  # Cached Image (optional)
+  cached_network_image: ^3.3.1
+
+  # UI Animations
+  animations: ^2.0.11
+
+  # Sharing
+  share_plus: ^11.0.0
+  # whatsapp_share2: ^2.0.2
+
+  # Secure Passwords
+  crypto: ^3.0.6
+
+  # Shared Preferences
+  shared_preferences: ^2.2.2  # 💡 Use latest compatible
+
+  # Linux Platform Compatibility
+  universal_io: ^2.0.4
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  
+  # Firebase Authentication (Login and Registration)
+  firebase_auth: ^5.7.0  # ✅ Updated to latest version
+  firebase_core: ^3.15.2 # ✅ Updated to latest version
+
+  # Numbers to Words
+  number_to_words_english: ^3.0.0
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0  # ✅ Updated version
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png  # ✅ Ensure logo is in assets folder
+    # - assets/fonts/NotoSans-Regular.ttf
+      
+      # ✅ used for Unicode symbols like ₹
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# name: vyapar
+# description: "A new Flutter project."
+# publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# version: 1.0.0+1
+
+# environment:
+#   sdk: ^3.8.1
+
+
+# dependencies:
+#   flutter:
+#     sdk: flutter
+
+#   # Local SQLite DB
+#   sqflite: ^2.4.2
+#   path: ^1.9.0
+
+#   # Charts & Graphs
+#   fl_chart: ^0.64.0
+
+#   # PDF Generation
+#   pdf: ^3.10.8
+#   printing: ^5.12.0
+
+#   # State Management (optional, simple projects can use setState)
+#   provider: ^6.1.2
+
+#   # Date Formatting
+#   intl: ^0.18.1
+
+#   # Email Validation
+#   email_validator: ^2.1.17
+
+#   # File Picker for selecting logos or invoices (optional)
+#   file_picker: ^6.1.1
+
+#   # Open files (PDF preview)
+#   open_filex: ^4.3.4
+
+#   # Convert Numbers to Words (for Invoice total)
+#   number_to_words: ^1.0.0
+
+#   # Cached Network/Image (for future, e.g., signature, stamp)
+#   cached_network_image: ^3.3.1
+
+#   # Animated UI/Charts/UX
+#   animations: ^2.0.11
+
+#   #Share PDF on whatsapp
+#   share_plus: ^11.0.0
+#   whatsapp_share2: ^2.0.2
+
+#   # Secure Password Storage
+#   crypto: ^3.0.6
+
+#   # Shared Preferences (for storing user settings, e.g., theme)
+#   shared_preferences: ^2.5.3
+
+#   # Target Linux Platform
+#   universal_io: ^2.0.4
+#   sqflite_common_ffi: ^2.3.6
+
+#   # Fonts
+#   google_fonts: ^6.2.1
+
+
+
+
+  
+#   cupertino_icons: ^1.0.8
+
+# dev_dependencies:
+#   flutter_test:
+#     sdk: flutter
+
+ 
+#   flutter_lints: ^5.0.0
+
+# flutter:
+#   # Specify the fonts you want to use in your app
+#   assets:
+#     - assets/fonts/NotoSans-Regular.ttf
